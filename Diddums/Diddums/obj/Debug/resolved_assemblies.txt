@@ -1,0 +1,14 @@
+C:\Users\Aurel\Documents\Programming\Space Apps\Diddums\Diddums\obj\Debug\assemblies\Diddums.dll
+C:\Users\Aurel\Documents\Programming\Space Apps\Diddums\Diddums\obj\Debug\assemblies\Mono.Android.dll
+C:\Users\Aurel\Documents\Programming\Space Apps\Diddums\Diddums\obj\Debug\assemblies\mscorlib.dll
+C:\Users\Aurel\Documents\Programming\Space Apps\Diddums\Diddums\obj\Debug\assemblies\Newtonsoft.Json.dll
+C:\Users\Aurel\Documents\Programming\Space Apps\Diddums\Diddums\obj\Debug\assemblies\System.Core.dll
+C:\Users\Aurel\Documents\Programming\Space Apps\Diddums\Diddums\obj\Debug\assemblies\System.dll
+C:\Users\Aurel\Documents\Programming\Space Apps\Diddums\Diddums\obj\Debug\assemblies\System.Xml.dll
+C:\Users\Aurel\Documents\Programming\Space Apps\Diddums\Diddums\obj\Debug\assemblies\System.Xml.Linq.dll
+C:\Users\Aurel\Documents\Programming\Space Apps\Diddums\Diddums\obj\Debug\assemblies\Xamarin.Android.Support.v4.dll
+C:\Users\Aurel\Documents\Programming\Space Apps\Diddums\Diddums\obj\Debug\assemblies\Xamarin.GooglePlayServices.Base.dll
+C:\Users\Aurel\Documents\Programming\Space Apps\Diddums\Diddums\obj\Debug\assemblies\Xamarin.GooglePlayServices.Basement.dll
+C:\Users\Aurel\Documents\Programming\Space Apps\Diddums\Diddums\obj\Debug\assemblies\Xamarin.GooglePlayServices.Maps.dll
+C:\Users\Aurel\Documents\Programming\Space Apps\Diddums\Diddums\obj\Debug\assemblies\System.Runtime.Serialization.dll
+C:\Users\Aurel\Documents\Programming\Space Apps\Diddums\Diddums\obj\Debug\assemblies\System.ServiceModel.Internals.dll

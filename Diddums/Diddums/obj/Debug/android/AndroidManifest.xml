@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="Diddums.Diddums" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
+  <!--suppress UsesMinSdkAttributes-->
+  <uses-sdk android:minSdkVersion="16" />
+  <!-- Google Maps for Android v2 requires OpenGL ES v2 -->
+  <uses-feature android:glEsVersion="0x00020000" android:required="true" />
+  <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+  <!-- We need to be able to download map tiles and access Google Play Services-->
+  <uses-permission android:name="android.permission.INTERNET" />
+  <!-- Allow the application to access Google web-based services. -->
+  <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+  <!-- Google Maps for Android v2 will cache map tiles on external storage -->
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <!-- Google Maps for Android v2 needs this permission so that it may check the connection state as it must download data -->
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <!-- Permission to receive remote notifications from Google Play Services -->
+  <!-- Notice here that we have the package name of our application as a prefix on the permissions. -->
+  <!--<uses-permission android:name="Diddums.Diddums.permission.MAPS_RECEIVE" />
+  <permission android:name="Diddums.Diddums.permission.MAPS_RECEIVE" android:protectionLevel="signature" />-->
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <application android:label="DIDDUMS" android:name="mono.android.app.Application" android:allowBackup="true" android:debuggable="true">
+    <!-- AIzaSyCQYIN-PaFsMqfxS5kOuT1_5rwYARwstcM-->
+    <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyCQYIN-PaFsMqfxS5kOuT1_5rwYARwstcM" />
+    <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+    <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+    <activity android:label="Manual Coordinate Input" android:name="md5e0f8f9164e4e1cf2250a84b4409a4c5a.CoordsActivity" />
+    <activity android:label="More Information" android:name="md5e0f8f9164e4e1cf2250a84b4409a4c5a.InfoActivity" />
+    <activity android:icon="@drawable/icon" android:screenOrientation="portrait" android:name="md5e0f8f9164e4e1cf2250a84b4409a4c5a.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:screenOrientation="landscape" android:name="md5e0f8f9164e4e1cf2250a84b4409a4c5a.MapActivity" />
+    <activity android:label="Settings" android:name="md5e0f8f9164e4e1cf2250a84b4409a4c5a.SettingsActivity" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="Diddums.Diddums.mono.MonoRuntimeProvider.__mono_init__" />
+    <!--suppress ExportedReceiver-->
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.Diddums.Diddums" />
+      </intent-filter>
+    </receiver>
+  </application>
+</manifest>

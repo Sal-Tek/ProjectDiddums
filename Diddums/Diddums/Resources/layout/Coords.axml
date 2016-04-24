@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:hint="@string/LatitudeHint"
+        android:inputType="numberDecimal|numberSigned"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtLatitude" />
+    <EditText
+        android:hint="@string/LongitudeHint"
+        android:inputType="numberDecimal|numberSigned"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtLongitude" />
+    <Button
+        android:text="@string/CoordsSubmitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSubmit" />
+</LinearLayout>

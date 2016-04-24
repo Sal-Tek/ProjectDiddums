@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/Settings">
+    <EditText
+        android:inputType="textMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="542.5dp"
+        android:id="@+id/txtAbout"
+        android:visibility="gone"
+        android:text="Test" />
+    <ToggleButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toggleDarkMode"
+        android:textOff="Dark Mode: Disabled"
+        android:textOn="Dark Mode: Enabled" />
+    <ToggleButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toggleFullscreen"
+        android:textOff="Fullscreen: Disabled"
+        android:textOn="Fullscreen: Enabled" />
+    <ToggleButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toggleDebugging"
+        android:textOff="Debugging Mode: Disabled"
+        android:textOn="Debugging Mode: Enabled" />
+    <ToggleButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toggleMeasuring"
+        android:text="Measuring System"
+        android:textOff="Measuring System: Imperial"
+        android:textOn="Measuring System: Metric" />
+    <Button
+        android:text="Filters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Filters" />
+    <Button
+        android:text="Radius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Radius" />
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar1"
+        android:visibility="gone" />
+    <Button
+        android:text="Update Frequency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/UpdateFreq" />
+    <Button
+        android:text="Language: English"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Language" />
+    <Button
+        android:text="Offline Maps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Maps" />
+    <Button
+        android:text="Report a Bug"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Report" />
+    <Button
+        android:text="About"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAbout" />
+</LinearLayout>
